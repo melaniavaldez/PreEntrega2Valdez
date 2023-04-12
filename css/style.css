@@ -1,0 +1,109 @@
+/*----------------------------INICIO-----------------------------*/
+/*PROPIEDADES GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*FOOTER*/
+.footer {
+    height: 100%;
+    width: auto;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+/*MAIN*/
+
+
+.titulo {
+    font-size: 3em;
+}
+
+.profesion {
+    color: #00000050;
+    font-size: 3em;
+}
+
+
+.descripcion {
+    font-size: 1em;
+}
+
+.main {
+    color: #fff;
+    background-color: #00000050;
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+/*-------------------------SOBRE MI----------------------------------*/
+
+
+
+.tituloabout {
+    font-size: 2em;
+}
+
+
+
+/*-------------------------PROYECTOS--------------------------------------*/
+.proyectos {
+    margin: 5em;
+    background-color: #fff;
+    text-align: start;
+    padding: 20;
+    border-radius: 20px;
+}
+
+
+.titulo1 {
+    background-color: #264450;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    color: #fff;
+    padding: 2em;
+    font-size: 2vh;
+    text-align: center;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagenes {
+    width: 600px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+
+/*---------------------------FORMULARIO------------------------------------*/
+
+form {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 200px;
+    margin-left: 500px;
+}
+
+/*-------------------FORMACION---------------------*/
+.formacion {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.formacion li {
+    padding: 20px;
+}
