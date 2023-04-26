@@ -1,119 +1,106 @@
 /*----------------------------INICIO-----------------------------*/
 /*PROPIEDADES GENERALES*/
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Libre Baskerville', serif;
-    color: #fff ;
-    font-size:large;
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+  color: #fff;
+  font-size: large;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-body{
-    background-color: #110e1b;
+body {
+  background-color: #252422;
 }
 
+ul {
+  list-style: none;
+}
 
 /*FOOTER*/
 .footer {
-    height: 100%;
-    width: auto;
-    text-align: center;
-    color: #fff;
-
+  height: 100%;
+  width: auto;
+  text-align: center;
+  color: #fff;
 }
 
-
-/*MAIN*/
-
-
-
-
-.profesion {
-    color: #f3f3f398;
-    font-size: 1em;
-}
-
-
-.descripcion {
-    font-size: 1em;
+nav .logo {
+  width: 50px;
+  height: 50px;
 }
 
 .main {
-    color: #fff;
-    background-color: #22223ba8;
-    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
-    text-align: start;
-    border-radius: 10px;
-    padding: 20px;
+  color: #fff;
+  background-color: rgba(73, 80, 87, 0.431372549);
+  box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+  text-align: start;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.presentacion .profesion {
+  color: rgba(243, 243, 243, 0.5960784314);
+  font-size: 1em;
+  list-style: none;
 }
 
 /*-------------------------PROYECTOS--------------------------------------*/
 .proyectos {
-    margin: 1em;
-    background-color: #22223bA8;
-    text-align: start;
-    border-radius: 20px;
-    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
-    padding: 5px;
+  margin: 1em;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: start;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+  padding: 5px;
 }
-
 
 .titulo1 {
-    background-color: #282f44;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-    margin: 20px;
-    
+  background-image: linear-gradient(to right, rgb(11, 10, 10), rgb(210, 210, 210));
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.851) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  margin: 20px;
+}
+.titulo1:hover {
+  color: #000;
+  background-image: linear-gradient(to left, rgb(11, 10, 10), rgb(210, 210, 210));
+  transition: 0.5s;
 }
 
-li {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.imagenes {
-    width: 600px;
-    height: 500px;
-    margin-top: 20px;
-}
-
-
-/*---------------------------FORMULARIO------------------------------------*/
-
-form {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 200px;
-    margin-left: 500px;
+ul li {
+  font-size: larger;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*-------------------FORMACION---------------------*/
 .formacion {
-
-    padding: 10px;
-    margin-top: 20px;
-}
-
-.formacion li {
-    padding: 20px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 /*--------------------------------------------------------------*/
-.wsp{
-    display: flex;
-    justify-content: center;
+.wsp {
+  display: flex;
+  justify-content: center;
 }
 
-.whatsapp{
-    width: 200px;
-    height: 200px;
-    
+.link-wsp {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 480px) {
+  .link-wsp {
+    width: 100px;
+    height: 100px;
+  }
 }
 

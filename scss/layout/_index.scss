@@ -1,0 +1,72 @@
+
+.main {
+    color: #fff;
+    background-color: $mainColor;
+    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+    text-align: start;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.presentacion{
+    & .profesion {
+        color: $fourthColor;
+        font-size: 1em;
+        list-style: none;
+    }
+}
+
+/*-------------------------PROYECTOS--------------------------------------*/
+.proyectos {
+    margin: 1em;
+    background-color: $secondColor;
+    text-align: start;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+    padding: 5px;
+}
+
+
+.titulo1 {
+    background-image: linear-gradient(to right, rgb(11, 10, 10), rgb(210, 210, 210));
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.851) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin: 20px;
+
+    &:hover {
+        color: $thirdColor;
+        background-image: linear-gradient(to left, rgb(11, 10, 10), rgb(210, 210, 210));
+        transition: .5s;
+    }
+
+}
+
+
+ul {
+    li {
+        font-size: larger;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/*-------------------FORMACION---------------------*/
+.formacion {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/*--------------------------------------------------------------*/
+.wsp {
+    display: flex;
+    justify-content: center;
+}
+
+.link-wsp {
+    width: 200px;
+    height: 200px;
+}
