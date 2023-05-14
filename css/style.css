@@ -67,6 +67,7 @@ nav .logo {
   text-align: center;
   margin: 20px;
 }
+
 .titulo1:hover {
   color: #000;
   background-image: linear-gradient(to left, rgb(11, 10, 10), rgb(210, 210, 210));
@@ -103,4 +104,3 @@ ul li {
     height: 100px;
   }
 }
-
